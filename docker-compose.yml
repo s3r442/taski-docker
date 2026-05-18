@@ -2,7 +2,7 @@ volumes:
   db_data:
   static:
 services:
-  db_s3r44:
+  db:
     image: postgres:13.10
     env_file: .env
     volumes:
